@@ -481,7 +481,7 @@
 				}
 
 				// Convert a string (with convert-table) to a date object
-				var year, month, day, hour, min;
+				var year, month, day, hour = 0, min = 0;
 				var is_successful = false;
 				var pm = false;
 				var H = false;
